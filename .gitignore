@@ -40,3 +40,4 @@ market_opportunity_engine/**/output/
 .venv/
 __pycache__/
 .env
+scan.txt
