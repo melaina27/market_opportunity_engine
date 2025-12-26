@@ -12,21 +12,25 @@ market_opportunity_engine is a Python system that discovers high-potential produ
 - Channel recommendation (Amazon / Etsy / SaaS / SEO sites)
 
 ## Project Structure
+
+```text
 market_opportunity_engine/
-  collectors/
-    - google_trends.py
-    - reddit_search.py
-    - trends_expand.py
-  nlp/
-    - extract_pain_points.py
-    - sentiment.py
-  scoring/
-    - demand.py
-    - pain.py
-    - competition.py
-    - monetization.py
-    - opportunity.py
-  pipeline_opportunity_rank.py
+├── collectors/
+│   ├── google_trends.py
+│   ├── reddit_search.py
+│   └── trends_expand.py
+├── nlp/
+│   ├── extract_pain_points.py
+│   └── sentiment.py
+├── scoring/
+│   ├── demand.py
+│   ├── pain.py
+│   ├── competition.py
+│   ├── monetization.py
+│   └── opportunity.py
+└── pipeline_opportunity_rank.py
+
+
 
 ## How to run
 ```bash
