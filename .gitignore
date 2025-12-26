@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.dist/
+build/
+dist/
+
+# Envs
+.venv/
+venv/
+env/
+miniconda*
+*.conda*
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Logs & outputs
+*.log
+market_opportunity_engine/output/
+market_opportunity_engine/**/output/
+
+# Data
+*.csv
+*.parquet
+*.zstd
+*.jsonl
+
+# Secrets
+.env
+.env.*
+*key*
+*token*
+
+.venv/
+__pycache__/
+.env

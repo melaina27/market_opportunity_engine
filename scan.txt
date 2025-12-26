@@ -1,0 +1,8 @@
+./market_opportunity_engine/collectors/reddit_search.py:137:    tokens = [t for t in re.split(r"\s+", kw) if len(t) >= 4]
+./market_opportunity_engine/collectors/reddit_search.py:138:    token_res = [re.compile(r"\b" + re.escape(t) + r"\b", re.IGNORECASE) for t in tokens[:3]]
+./market_opportunity_engine/collectors/reddit_search.py:146:        if token_res and sum(1 for tr in token_res if tr.search(text)) >= 2:
+./market_opportunity_engine/collectors/reddit_search.py:252:        # stage 3: token OR, t=all（再补量）
+./market_opportunity_engine/collectors/reddit_search.py:254:            tokens = [tok for tok in re.split(r"\s+", kw.lower()) if len(tok) >= 4][:3]
+./market_opportunity_engine/collectors/reddit_search.py:255:            if tokens:
+./market_opportunity_engine/collectors/reddit_search.py:256:                q3 = " OR ".join(tokens)
+./.gitignore:38:*token*
